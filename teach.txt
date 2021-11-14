@@ -1,0 +1,26 @@
+建立爬虫项目 scrapy startproject 项目名字
+ scrapy{
+	创建爬虫 scrapy genspider <爬虫名字>< 允许爬取的域名>
+	创建的爬虫里有三个参数 一个方法
+		{三个参数：
+
+			name
+			允许的域名
+			start——url
+		一个方法：
+		parse方法		
+			
+}
+	完成爬虫
+	修改起始的url （因为我们想提取的往往是这个页面下的另外一个页面）
+	检查域名
+
+
+
+}
+数据建模 items{
+	在items.py里使用
+	在spider里导入，实例化，使用
+}
+保存数据 pipeline (保存到mysql)
+{
